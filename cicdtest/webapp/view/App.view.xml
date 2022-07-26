@@ -3,6 +3,6 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <App id="app">
-    	<Button id="_IDGenButton1" type="Back" press="onPress" />
+    
     </App>
 </mvc:View>
