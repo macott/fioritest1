@@ -16,6 +16,7 @@ stages:
   Compliance:
     sonarExecuteScan: false
   Release:
+    shellExecute: true
     cloudFoundryDeploy: false
     tmsUpload: true
 steps:
