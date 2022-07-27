@@ -19,6 +19,8 @@ stages:
     cloudFoundryDeploy: false
     tmsUpload: true
 steps:
+  shellExecute:
+    script: this
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
   cloudFoundryDeploy:
